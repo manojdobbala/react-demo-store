@@ -5,14 +5,14 @@ const MailingList = () => (
     <div className="content">
       <div className="mailing-list-content">
         <h2>
-          Do you <span className="love">love</span> lamp?
+          Do you <span className="love">love</span> Deals & Coupons?
         </h2>
         <p>
           Sign up to recieve{' '}
           <span className="word-mark">
-            I<span className="love">Love</span>Lamp
+            I<span className="love">Love</span>Deals
           </span>{' '}
-          product news, promotions and updates.
+          coupons, promotions and updates.
         </p>
         <form className="newsletter-form" method="post" noValidate>
           <input
