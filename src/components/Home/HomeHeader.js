@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import HeaderNav from '../global/HeaderNav';
-import * as Header from '../../assets/img/headers/coffeeMaker.jpeg';
+import * as Header from '../../assets/img/headers/headerCoffee.jpg';
 
 var HeaderStyle = {
   backgroundImage: `url(${Header})`,

@@ -5,17 +5,33 @@ import CartCounter from '../Cart/CartCounter';
 
 var divStyle = {
   textDecoration: 'none',
-  color: 'white'
+  color: 'black'
+};
+
+var divHeaderStyle = {
+  fontSize: '2.4em',
+  fontWeight: '600',
+  color: '#ccc'
 };
 
 const HeaderNav = () => (
   <div className="nav-container">
     <nav className="primary-nav light">
-      <Link to="/products">Deals</Link>
-      <Link to="/Stores">Stores</Link>
-      <Link to="/Myaccount">Myaccount</Link>
-      <Link to="/FAQ">FAQ</Link>
-      <Link to="/Contact">Contact Us</Link>
+      <Link style={divStyle} to="/products">
+        Deals
+      </Link>
+      <Link style={divStyle} to="/Stores">
+        Stores
+      </Link>
+      <Link style={divStyle} to="/Myaccount">
+        Myaccount
+      </Link>
+      <Link style={divStyle} to="/FAQ">
+        FAQ
+      </Link>
+      <Link style={divStyle} to="/Contact">
+        Contact Us
+      </Link>
     </nav>
     <div className="logo light">
       <Link to="/" className="logo-link">
@@ -27,7 +43,7 @@ const HeaderNav = () => (
             alt="I love lamp logo"
             aria-hidden="true"
           />
-          <h3 style={divStyle}>Hunt2Save</h3>
+          <h3 style={divHeaderStyle}>Hunt2Save</h3>
         </div>
         <div className="small-logo" aria-hidden="true">
           Logo

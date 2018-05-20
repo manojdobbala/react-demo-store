@@ -4,14 +4,32 @@ import { connect } from 'react-redux';
 
 import CartCounter from '../Cart/CartCounter';
 
+var divStyle = {
+  textDecoration: 'none',
+  color: 'black'
+};
+
 class ProductsHeader extends Component {
   render() {
     return (
       <header className="push">
         <div className="nav-container">
-          <nav className="primary-nav">
-            <Link to="/products">Products</Link>
-            <Link to="/styles">Styles</Link>
+          <nav className="primary-nav light">
+            <Link style={divStyle} to="/products">
+              Deals
+            </Link>
+            <Link style={divStyle} to="/Stores">
+              Stores
+            </Link>
+            <Link style={divStyle} to="/Myaccount">
+              Myaccount
+            </Link>
+            <Link style={divStyle} to="/FAQ">
+              FAQ
+            </Link>
+            <Link style={divStyle} to="/Contact">
+              Contact Us
+            </Link>
           </nav>
           <div className="logo">
             <Link to="/" className="logo-link">
