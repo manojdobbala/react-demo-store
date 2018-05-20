@@ -6,7 +6,7 @@ class TopPicksContainer extends Component {
     return (
       <section className="top-picks">
         <div className="content">
-          <h2>Top picks</h2>
+          <h2>Top Categories</h2>
           <div className="product-list">
             <TopPicks />
           </div>
